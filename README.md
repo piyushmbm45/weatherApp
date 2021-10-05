@@ -6,8 +6,7 @@
 #### Tools Used
 
 - Nodejs
-    - expressjs
-    - nodemon
+- expressjs
 - postman
 
 ##### Language Used
