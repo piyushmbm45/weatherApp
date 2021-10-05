@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+body{
+    background-image: url('https://cdn.pixabay.com/photo/2021/09/16/17/55/sunset-6630668_1920_1279.jpg');
+    background-size: cover;
+}
+
+.form-control{
+    width: 50%;
+    /* margin-left: 23%; */
+}

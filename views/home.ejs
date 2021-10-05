@@ -1,0 +1,24 @@
+<%- include ('partials/header') %>
+    <nav>
+        <div class="container-fluid">
+            <div class="d-flex justify-content-around p-3 align-items-center">
+                <div>
+                    <img class="img-fluid" src="/images/sun.png" alt="logo" height="75px" width="75px">
+                </div>
+                <div>
+                    <h1>My Weather App</h1>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <form action="/" method="post">
+        <div class="form-group m-3 d-flex flex-column align-items-center justify-content-around">
+            <label class="m-2" for="cityInput">Enter City Name</label>
+            <input class="form-control" type="text" placeholder="Jaipur" name="cityName" id="cityInput">
+            <button class="btn btn-primary m-2" type="submit">Let's Go</button>
+        </div>
+    </form>
+
+    <%- include ('partials/footer') %>
